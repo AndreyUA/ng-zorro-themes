@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
 import { NzRadioModule } from 'ng-zorro-antd/radio';
 import { FormsModule } from '@angular/forms';
 import { TestComponent } from './test/test.component';
+import { NgxTestAngularPackageModule } from 'ngx-test-angular-package';
 
 @NgModule({
   imports: [
@@ -18,6 +19,7 @@ import { TestComponent } from './test/test.component';
     NzRadioModule,
     FormsModule,
     NzSwitchModule,
+    NgxTestAngularPackageModule,
   ],
   declarations: [WelcomeComponent, TestComponent],
   exports: [WelcomeComponent],
